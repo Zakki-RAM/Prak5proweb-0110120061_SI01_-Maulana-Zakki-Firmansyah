@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ngaji Online</title>
+  <style type="text/css">
+    body{
+    background-attachment: fixed;
+    background-image: url("95579b27d455b77ef335b01316541dba.jpg");
+
+    }
+    form{
+      font-family: arial;
+      background-color: #00FFFF;
+      width: 300px;
+      margin: 180px auto;
+      padding: 30px;
+      text-align: right;
+      color: black;
+      border-radius: 10px 10px;
+      box-shadow: 5px 5px black;
+    }
+    input{
+      margin: 10px;
+    }
+    input.login{
+      background-color:#0000FF ;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      padding: 5px 10px;
+      margin: 30px 10px auto 0px;
+    }
+
+    h3{
+      text-align:center;
+      margin: 40px auto;
+      margin-top: 15px;
+      font-weight: bold;
+      color: black;
+      font-family: century;
+    }
+  </style>
+</head>
+<body>
+  <form action="Berhasil.html" method="get" id="Form" onsubmit=" return masuk()">
+    <h3>Welcome To Ngaji Online</h3>
+    Username  
+    <input type="text" name="username" placeholder="username">
+    Password  
+    <input type="password" name="password" placeholder="password">
+    <input class="login" type="submit" name="login" value="Login">
+  </form>
+</body>
+<script src="login.js">
+</script>
+</html>
